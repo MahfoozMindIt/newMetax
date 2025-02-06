@@ -19,7 +19,7 @@ const Home = () => {
  <main className='flex items-center justify-between py-10 gap-10 w-full'>
  <div className=''>
         <h1 className='text-7xl font-light pb-14'>
-        Advanced <br /> payment <br /> technology <br /> powered by XBD <br /> PAY</h1>
+        Advanced <br /> payment <br /> technology <br /> powered by Metax <br /> Payments</h1>
         <button className='rounded-full bg-primary text-white hover:bg-secondary hover:border-secondary transition-all duration-500 border-[#542A74] border-[2px] text-[18px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
   
     </div>
@@ -70,9 +70,9 @@ The digital payments landscape is <br /> transforming, we have the tools to help
  </main>
  <main className='w-full flex gap-10 justify-between py-20 items-center'>
 <img src={content2} alt="" className='h-[570px] w-[45%] object-cover shadow-2xl rounded-4xl'/>
-<div className='w-[47%]'>  <h2 className='text-6xl font-light homeContent pb-1'>We achieve this <br /> through</h2>
+<div className='w-[47%] '>  <h2 className='text-6xl font-light homeContent pb-1'>We achieve this <br /> through</h2>
   <p className='pt-10 text-lg flex items-center gap-3'> <span><MdOutlineCheckCircleOutline className='text-4xl'/></span> Meeting customer needs with our intuitive payments technology products</p>
-  <p className='py-4 text-lg flex items-center gap-3'> <span><MdOutlineCheckCircleOutline className='text-4xl'/></span>Strategic relationships that magnify & accelerate business opportunities through our partnerships</p>
+  <p className='py-4 text-lg flex items-center gap-3 w-full'> <span><MdOutlineCheckCircleOutline className='text-4xl'/></span>Strategic relationships that magnify & accelerate business opportunities through our partnerships</p>
   <p className=' text-lg flex items-center gap-3'> <span><MdOutlineCheckCircleOutline className='text-4xl'/></span>Customer satisfaction at the heart of our innovation</p>
   </div>
  </main>

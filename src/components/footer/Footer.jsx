@@ -20,12 +20,12 @@ const Footer = () => {
     <FaLinkedinIn className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
     <FaInstagram className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
     </div>
-    <p className='text-sm pb-2 pt-10'>METAX Pay © 2025</p>
+    <p className='text-sm pb-2 pt-10'>Metax Payments Ltd © 2025</p>
     <p className='flex gap-2 text-sm'><span className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Privacy Policy</span> <span className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Cookie Policy</span></p>
     </div>
     <div>
         <h4 className='font-semibold mb-24'>Contact Us</h4>
-        <p className='font-semibold pb-5'>Stay up to date on XBD news, projects and more</p>
+        <p className='font-semibold pb-5'>Stay up to date on Metax news, projects and more</p>
         <div className='flex items-center gap-10'>
             <div>
                 
@@ -38,12 +38,9 @@ const Footer = () => {
         </div>
     </div>
 </main>
-<p className='text-sm pt-10'>XBD Pay is a product provided by the following group entities, licensed in multiple jurisdictions. The specific entity providing services will depend on your jurisdiction.</p>
-<p className='font-semibold text-sm py-5'>Fiat payments are powered by our partner - WorldPay Limited.</p>
-<p className='text-sm'>XBase Digital UAB: registered in Lithuania, company number: 305943164 <br />
-XBase Digital Inc: registered in Canada, company number BC1439482 and licence number M21658614 <br />
-XBase Digital Uk Limited: registered in the United Kingdom, company number 15031056 <br />
-XBD Holdings Limited: registered in Abu Dhabi company number 00009488</p>
+<p className='text-sm pt-10'>Metax Payments Ltd, incorporated in Canada (BC1406436), is Registered at 28 19628, 55A Avenue, Langley, British Columbia, V3A 3X2. The company is duly registered as a Money Services Business with FINTRAC under registration number M23579425, ensuring adherence to Canadian financial laws and regulations.</p>
+{/* <p className='font-semibold text-sm py-5'>Fiat payments are powered by our partner - WorldPay Limited.</p> */}
+<p className='text-sm pt-5'><span className='font-semibold text-sm'>Disclaimer:</span> The author assumes no responsibility or liability for any errors or omissions in the content of this site. The information contained in this site is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness, or timeliness.</p>
       </section>
     </div>
   )
