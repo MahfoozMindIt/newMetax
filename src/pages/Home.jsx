@@ -60,7 +60,7 @@ The digital payments landscape is <br /> transforming, we have the tools to help
  <main className='w-full flex gap-10 justify-between py-20 items-center'>
 <div className='w-[47%]'>  <h2 className='text-6xl font-light homeContent'>Payment solutions to fit your business <br /> needs</h2>
   <p className='py-10 text-lg'>We support business of all sizes, from large enterprises to SMEs, across a wide range of industries.</p>
- <button className='rounded-full bg-black hover:bg-[#5BA7B9] hover:border-[#5BA7B9] transition-all duration-500 text-white border-black border-[2px] text-[20px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
+ <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] text-[20px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
 </div>
 <img src={content} alt="" className='h-[570px] w-[45%] object-cover shadow-2xl rounded-4xl'/>
  </main>
@@ -94,7 +94,7 @@ The digital payments landscape is <br /> transforming, we have the tools to help
           <main className='w-full flex gap-10 justify-between items-center'>
          <div className='w-[47%]'>  <h2 className='text-5xl font-light leading-14 homeContent'>Want to setup a call <br /> with one of our digital <br /> asset experts?</h2>
            <p className='pt-10 pb-5 text-3xl font-light'>Book a call today.</p>
-           <button className='rounded-full bg-black hover:bg-[#5BA7B9] hover:border-[#5BA7B9] transition-all duration-500 text-white border-black border-[2px] text-[20px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button>
+           <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] text-[20px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button>
          </div>
          <img src={content4} alt="" className='h-[500px] w-[52%] object-cover'/>
           </main>

@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaArrowRightLong } from 'react-icons/fa6';
+import metax from "../../assets/metax.png"
 import './Footer.css'
 
 const Footer = () => {
@@ -10,15 +11,17 @@ const Footer = () => {
       <section className='w-[85%] py-20'>
 <main className='flex justify-between'>
 <div>
-    
-    <h1 className='text-5xl font-extrabold mb-20 cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'>XBD <span className='font-light'>PAY</span></h1>
+    <div className='pb-20'>
+        
+    <div className='bg-white py-20 px-7 rounded-full'><img src={metax} alt="" className='h-14'/></div>
+    </div>
     
     <div className='flex gap-10 text-3xl'>
-    <FaLinkedinIn className='cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'/>
-    <FaInstagram className='cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'/>
+    <FaLinkedinIn className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
+    <FaInstagram className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
     </div>
     <p className='text-sm pb-2 pt-10'>METAX Pay © 2025</p>
-    <p className='flex gap-2 text-sm'><span className='underline underline-offset-2 cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'>Privacy Policy</span> <span className='underline underline-offset-2 cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'>Cookie Policy</span></p>
+    <p className='flex gap-2 text-sm'><span className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Privacy Policy</span> <span className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Cookie Policy</span></p>
     </div>
     <div>
         <h4 className='font-semibold mb-24'>Contact Us</h4>
@@ -31,7 +34,7 @@ const Footer = () => {
             <input type="checkbox" className='h-5 w-5' name="" id="" />
                 <label htmlFor="" className='text-[12px]'>By subscribing, you confirm that you have read our <span className='underline underline-offset-1'>Privacy Policy</span></label>
             </div></div>
-            <button className='rounded-full bg-white hover:bg-[#5BA7B9] hover:border-[#5BA7B9] transition-all duration-500 text-black border-white border-[2px] text-[20px] font-semibold px-9 cursor-pointer flex items-center gap-2 py-5'>Send <span><FaArrowRightLong/></span>   </button>
+            <button className='rounded-full bg-white hover:bg-[#542A74] hover:border-[#542A74] transition-all duration-500 text-black border-white border-[2px] text-[20px] font-semibold px-9 cursor-pointer hover:text-white flex items-center gap-2 py-5'>Send <span><FaArrowRightLong/></span>   </button>
         </div>
     </div>
 </main>
