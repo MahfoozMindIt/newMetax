@@ -1,0 +1,28 @@
+.sideNav{
+    width: 100%;
+    background:rgba(255,255,255,0.6);
+    position: fixed;
+    height: 100vh;
+    top: 80px;
+    right: -100%;
+    transition: all 0.7s;
+    z-index: 100000;
+    }
+    
+    .sideNav.active{
+        right: 0;
+    }
+    
+    @media screen and (max-width:769px){
+    
+    }
+    
+    @media screen and (max-width:426px){
+        
+        }
+    
+        
+    @media screen and (max-width:325px){
+        
+        }
+    
