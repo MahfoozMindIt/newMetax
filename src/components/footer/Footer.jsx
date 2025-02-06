@@ -17,7 +17,7 @@ const Footer = () => {
     <FaLinkedinIn className='cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'/>
     <FaInstagram className='cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'/>
     </div>
-    <p className='text-sm pb-2 pt-10'>XBD Pay © 2025</p>
+    <p className='text-sm pb-2 pt-10'>METAX Pay © 2025</p>
     <p className='flex gap-2 text-sm'><span className='underline underline-offset-2 cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'>Privacy Policy</span> <span className='underline underline-offset-2 cursor-pointer hover:text-[#5BA7B9] transition-all duration-300'>Cookie Policy</span></p>
     </div>
     <div>
