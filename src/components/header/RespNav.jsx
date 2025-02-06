@@ -4,6 +4,8 @@ import { Link, useLocation } from 'react-router-dom'
 import { FaPhoneAlt } from 'react-icons/fa'
 // import Logo from "../../assets/Logo.png"
 
+//   #542A74
+// #7E489B
 
 const RespNav = ({show}) => {
 
@@ -26,10 +28,9 @@ const location = useLocation();
       
     </ul>
   <div className='flex justify-center items-center gap-3 flex-col'>
-    <Link to="https://live.metaxexchange.com/login">
-    <button className='bg-secondary py-3 px-7 rounded-full text-white font-bold text-sm hover:bg-white hover:text-secondary transition-all duration-300 border-[1px] border-secondary '>Login</button></Link>
+    {/* <Link to="https://live.metaxexchange.com/login">
+    <button className='bg-secondary py-3 px-7 rounded-full text-white font-bold text-sm hover:bg-white hover:text-secondary transition-all duration-300 border-[1px] border-secondary '>Login</button></Link> */}
              {/* <button className='bg-primary px-3 py-3 rounded-full text-white font-bold text-sm flex gap-2 items-center hover:bg-white hover:text-primary transition-all duration-300 border-[1px] border-primary'> <span><FaPhoneAlt/></span>+971 50 597 9972</button> */}
-             <button className='bg-primary px-2 py-3 rounded-full text-white font-bold text-sm flex gap-2 items-center hover:bg-white hover:text-primary transition-all duration-300 border-[1px] border-primary'> <span><FaPhoneAlt/></span>+ 44 204 600 0540</button>
              </div>
 </section>
     </div>
@@ -48,7 +49,7 @@ const Li = ({ url, text, location }) => {
         <Link
           to={url}
           style={{fontSize:30,fontWeight:300,}}
-          className='hover:text-[#5BA7B9] transition-all duration-300'
+          className='hover:text-[#542A74] transition-all duration-300'
         >
           {text}
         </Link>

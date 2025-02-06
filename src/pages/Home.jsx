@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
 import BgImg from "../assets/bgEarth.png"
-import iconvg from '../assets/Vector-7.svg'
+import iconvg from '../assets/X_logo.png'
 import group1 from '../assets/group1.png'
 import content from '../assets/content.png'
 import content2 from '../assets/content2.jpg'
@@ -20,7 +20,7 @@ const Home = () => {
  <div className=''>
         <h1 className='text-7xl font-light pb-14'>
         Advanced <br /> payment <br /> technology <br /> powered by XBD <br /> PAY</h1>
-        <button className='rounded-full bg-black text-white hover:bg-[#5BA7B9] hover:border-[#5BA7B9] transition-all duration-500 border-black border-[2px] text-[18px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
+        <button className='rounded-full bg-primary text-white hover:bg-secondary hover:border-secondary transition-all duration-500 border-[#542A74] border-[2px] text-[18px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
   
     </div>
     <div className='h-[600px] w-[47%] rounded-full bg-white'>
@@ -36,7 +36,7 @@ const Home = () => {
 
  <img src={BgImg} alt="" className='w-full h-full object-cover py-10'/>
  <main className='w-full flex justify-center items-center py-10'>
- <button className='rounded-full bg-black text-white border-black hover:bg-[#5BA7B9] hover:border-[#5BA7B9] transition-all duration-500 border-[2px] text-[20px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book an appointment with one of our experts <span><FaArrowRightLong/></span>   </button>
+ <button className='rounded-full bg-primary text-white border-primary hover:bg-secondary hover:border-secondary transition-all duration-500 border-[2px] text-[20px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book an appointment with one of our experts <span><FaArrowRightLong/></span>   </button>
   
  </main>
 

@@ -8,3 +8,20 @@
   overflow-x: hidden;
   overflow-y: auto;
 }
+:root{
+  --color-primary:#542A74;
+  --color-secondary:#7E489B;
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary{
+  background-color: var(--color-secondary);
+}
+.border-secondary{
+  border: 1px solid var(--color-secondary);
+}
+.border-primary{
+  border: 1px solid var(--color-primary);
+}
