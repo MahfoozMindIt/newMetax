@@ -94,7 +94,7 @@ const Aboutus = () => {
     </div>
      <div className='xl:w-[47%] w-full'>
             <h1 className='md:text-8xl text-5xl font-light pb-3'>Join us</h1>
-            <p className='lg:text-lg lg:w-[87%] w-full pb-5'>At XBD Group, we’re not just building technology; we’re shaping the future of payments. If you’re passionate about innovation, driven to make an impact, and thrive in a fast-paced, collaborative environment, we’d love to hear from you. Join our team and be part of a journey that’s transforming the way the world moves money.</p>
+            <p className='lg:text-lg lg:w-[87%] w-full pb-5'>At Metax Group, we’re not just building technology; we’re shaping the future of payments. If you’re passionate about innovation, driven to make an impact, and thrive in a fast-paced, collaborative environment, we’d love to hear from you. Join our team and be part of a journey that’s transforming the way the world moves money.</p>
             <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Contact us <span><FaArrowRightLong/></span>   </button>
       
         </div>

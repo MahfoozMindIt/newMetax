@@ -79,7 +79,7 @@ The digital payments landscape is <br className='hidden xl:block'/> transforming
  </main>
  
  <main className='w-full flex flex-col xl:flex-row gap-10 justify-between py-20 items-center'>
-<div className='xl:w-[47%] w-full p-3'>  <h2 className='text-3xl lg:leading-11 font-light'>We wanted a payment partner who could support our ambitious global growth plans and help us scale. In XBD PAY we found someone who could do that, but someone who also added real value to the business</h2>
+<div className='xl:w-[47%] w-full p-3'>  <h2 className='text-3xl lg:leading-11 font-light'>We wanted a payment partner who could support our ambitious global growth plans and help us scale. In Metax PAY we found someone who could do that, but someone who also added real value to the business</h2>
   <p className='pt-14 text-lg font-normal'>Cheye Alexander, CEO, Christian Rose Clothing</p>
  
 </div>
