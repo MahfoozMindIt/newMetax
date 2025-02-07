@@ -17,13 +17,13 @@ const Home = () => {
         <div  className='w-full flex flex-col items-center justify-center bg-[#F4F2F2]'>
         <section className='lg:w-[85%] w-[95%] '>
  <main className='flex flex-col xl:flex-row items-center justify-between py-10 gap-10 w-full'>
- <div className='xl:w-47% w-full'>
+ <div className='xl:w-[47%] w-full'>
         <h1 className='md:text-7xl text-3xl font-light pb-14'>
         Advanced <br className='hidden md:block'/> payment <br /> technology <br className='hidden md:block'/> powered by Metax <br /> Payments</h1>
-        <button className='rounded-full bg-primary text-white hover:bg-secondary hover:border-secondary transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
+        <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
   
     </div>
-    <div className='h-[600px] xl:w-[87%] w-full hidden xl:block rounded-full bg-white'>
+    <div className='h-[550px] xl:w-[44%] w-full hidden xl:block rounded-full bg-white'>
 
     </div>
  </main>
@@ -48,7 +48,7 @@ const Home = () => {
     As the world adapts to technological innovation and disruption, our relationship with money is evolving, influencing how we live, shop, and pay for goods and services.
     </p>
     <p className='py-5 leading-7 lg:text-lg text-md'>We ensure a seamless payment experience for businesses by providing quick, secure, and reliable payment solutions. Accept a range of currencies, whether local flat or digital assets.*</p>
-    <p className='leading-7 lg:text-lg text-md'>*Digital asset services are currently unavailable in the UK.</p>
+    <p className='leading-7 lg:text-lg text-sm'>*Digital asset services are currently unavailable in the UK.</p>
   </div>
  </main>
  <main className='flex flex-col justify-center items-center xl:py-48 py-24 gap-16'>
@@ -64,16 +64,16 @@ The digital payments landscape is <br className='hidden xl:block'/> transforming
 </div>
 <img src={content} alt="" className='xl:h-[570px] h-[350px] xl:w-[45%] w-full object-cover shadow-2xl rounded-4xl'/>
  </main>
- <main className='flex flex-col justify-center items-center py-48 gap-20'>
+ <main className='flex flex-col justify-center items-center py-20 lg:py-48 gap-20'>
   <img src={global} alt="" className='h-24 w-24'/>
   <h2 className='lg:text-6xl text-3xl font-light text-center homeContent pb-1'>Global payment technology you can trust</h2>
  </main>
- <main className='w-full flex flex-col xl:flex-row gap-10 justify-between py-20 items-center'>
+ <main className='w-full flex flex-col xl:flex-row gap-10 justify-between py-10 items-center'>
 <img src={content2} alt="" className='xl:h-[570px] h-[350px] xl:w-[45%] w-full object-cover shadow-2xl rounded-4xl'/>
 <div className='xl:w-[47%] w-full '>  <h2 className='lg:text-6xl text-3xl font-light homeContent pb-1'>We achieve this <br className='hidden xl:block'/> through</h2>
-  <p className='pt-10 lg:text-lg text-sm flex items-center  gap-3'> <span><MdOutlineCheckCircleOutline className='lg:text-4xl text-xl'/></span> Meeting customer needs with our intuitive payments technology products</p>
-  <p className='py-4 lg:text-lg text-sm flex items-center justify-center gap-3 w-full'> <span><MdOutlineCheckCircleOutline className='lg:text-4xl text-xl'/></span> Strategic relationships that magnify & accelerate business opportunities through our partnerships</p>
-  <p className=' lg:text-lg text-sm flex items-center gap-3'> <span><MdOutlineCheckCircleOutline className='lg:text-4xl text-xl'/></span>Customer satisfaction at the heart of our innovation</p>
+  <p className='pt-10 lg:text-lg text-sm flex items-center  gap-3'> <span><MdOutlineCheckCircleOutline className='lg:text-4xl mr-3 text-xl'/></span> Meeting customer needs with our intuitive payments technology products</p>
+  <p className='py-4 lg:text-lg text-sm flex items-center justify-center gap-3 w-full '> <span className=''><MdOutlineCheckCircleOutline className='lg:text-4xl text-xl mr-5 xl:mr-3'/></span> Strategic relationships that magnify & accelerate business opportunities through our partnerships</p>
+  <p className=' lg:text-lg text-sm flex items-center gap-3'> <span><MdOutlineCheckCircleOutline className='lg:text-4xl mr-1 text-xl'/></span>Customer satisfaction at the heart of our innovation</p>
   </div>
  </main>
  
@@ -91,7 +91,7 @@ The digital payments landscape is <br className='hidden xl:block'/> transforming
           
         <section className='md:w-[93%] w-full'>
           
-          <main className='w-full flex-col md:flex-row flex gap-10 justify-between items-center'>
+          <main className='w-full flex-col md:flex-row flex gap-10 pt-10 md:pt-0 justify-between items-center'>
          <div className='md:w-[47%] w-full pl-5'>  <h2 className='lg:text-5xl text-3xl font-light lg:leading-14 leading-9 homeContent'>Want to setup a call <br /> with one of our digital <br /> asset experts?</h2>
            <p className='pt-10 pb-5 lg:text-3xl text-xl font-light'>Book a call today.</p>
            <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] lg:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button>

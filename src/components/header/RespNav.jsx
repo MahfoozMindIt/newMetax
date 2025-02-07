@@ -23,10 +23,10 @@ const location = useLocation();
 
     {/* <Link to='/'><img src={Logo} className='h-16 object-contain pt-5'/></Link> */}
     
-    <ul className='list-none font-medium text-[17px] font-railway flex flex-col w-full  justify-center '>
+    <ul className='list-none font-medium text-[17px] gap-3 font-railway flex flex-col w-full  justify-center '>
         <Li url='/' text='Home' location={location}/>
         {/* <Li url='/aboutUs' text='About us' location={location}/> */}
-        <Li url='/aboutUs' text='Personal' location={location}/>
+        <Li url='/aboutUs' text='About Us' location={location}/>
         {/* <Li url='/business' text='Business' location={location}/> */}
         {/* <Li url='/partnership' text='Partnerships' location={location}/> */}
         {/* <Li url='/latestNews' text='Latest News' location={location}/> */}
