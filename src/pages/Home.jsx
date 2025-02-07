@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
 import BgImg from "../assets/bgEarth.png"
+import map from "../assets/map.png"
 import iconvg from '../assets/X_logo.png'
 import group1 from '../assets/group1.png'
 import content from '../assets/content.png'
@@ -34,7 +35,7 @@ const Home = () => {
   <h2 className='md:text-3xl text-xl font-light tracking-wider leading-7 md:leading-10'>We are redefining the digital asset payments space by leveraging our multi-licensed status to deliver seamless, cross-border payment and digital finance infrastructure.</h2></div>
  </main>
 
- <img src={BgImg} alt="" className='w-full h-full object-cover py-10'/>
+ <img src={map} alt="" className='w-full h-full object-cover py-10'/>
  <main className='w-full flex justify-center items-center py-10'>
  <button className='rounded-full bg-primary text-white border-primary hover:bg-secondary hover:border-secondary transition-all duration-500 border-[2px] md:text-[20px] text-[15px] font-semibold md:px-10 px-7 cursor-pointer flex items-center gap-2 py-3 md:py-5'>Book an appointment with one of our experts <span><FaArrowRightLong/></span>   </button>
   
