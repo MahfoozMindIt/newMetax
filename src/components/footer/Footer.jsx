@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <div className='bg-black w-full flex justify-center text-white'>
       <section className='w-[85%] py-20'>
-<main className='flex justify-between'>
+<main className='flex flex-col md:flex-row justify-between gap-10'>
 <div>
     <div className='pb-20'>
         
-    <div className='bg-white py-20 px-7 rounded-full'><img src={metax} alt="" className='h-14'/></div>
+    <div className='bg-white xl:py-20 xl:px-7 xl:rounded-full p-1'><img src={metax} alt="" className='lg:h-14 object-contain h-10'/></div>
     </div>
     
     <div className='flex gap-10 text-3xl'>
@@ -26,11 +26,11 @@ const Footer = () => {
     <div>
         <h4 className='font-semibold mb-24'>Contact Us</h4>
         <p className='font-semibold pb-5'>Stay up to date on Metax news, projects and more</p>
-        <div className='flex items-center gap-10'>
+        <div className='flex flex-col md:flex-row items-center gap-10'>
             <div>
                 
-            <input type="email" name="" id="" placeholder='enter your email address here' className='border-t-0 border-l-0 border-r-0 outline-0 border-b-[1px] placeholder:text-white w-[500px] pb-2'/>
-            <div className='flex gap-3 items-center pt-5'>
+            <input type="email" name="" id="" placeholder='enter your email address here' className='border-t-0 border-l-0 border-r-0 outline-0 border-b-[1px] placeholder:text-white md:w-[500px] w-[350px] pb-2'/>
+            <div className='flex  gap-3 items-center pt-5'>
             <input type="checkbox" className='h-5 w-5' name="" id="" />
                 <label htmlFor="" className='text-[12px]'>By subscribing, you confirm that you have read our <span className='underline underline-offset-1'>Privacy Policy</span></label>
             </div></div>

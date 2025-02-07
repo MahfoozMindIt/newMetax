@@ -13,8 +13,14 @@ const location = useLocation();
 
   return (
     <div className={`${show?'sideNav active':'sideNav'} w-full justify-end flex p-0 shadow-black`}>
-<section className='flex w-[30%] bg-white h-full shadow-2xl flex-col gap-10 items-start justify-start p-10'>
+<section className='flex md:w-[30%] w-[70%] bg-white h-full shadow-2xl flex-col gap-10 items-start justify-start p-10'>
     
+<div className='flex justify-between w-full'>
+<button className='rounded-full md:hidden block hover:border-[#7E489B] text-[#542A74] transition-all duration-300 hover:text-[#7E489B] border-[#542A74] border-[2px] text-[14px] font-semibold py-2 px-5 cursor-pointer'>Sign Up</button>
+    <button className='rounded-full block md:hidden bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-300 text-white border-[#542A74] border-[2px] text-[14px] font-semibold py-2 px-5 cursor-pointer'>Contact us</button>
+    
+</div>
+
     {/* <Link to='/'><img src={Logo} className='h-16 object-contain pt-5'/></Link> */}
     
     <ul className='list-none font-medium text-[17px] font-railway flex flex-col w-full  justify-center '>
@@ -48,8 +54,8 @@ const Li = ({ url, text, location }) => {
       >
         <Link
           to={url}
-          style={{fontSize:30,fontWeight:300,}}
-          className='hover:text-[#542A74] transition-all duration-300'
+          style={{fontWeight:300,}}
+          className='hover:text-[#542A74] md:text-3xl text-xl transition-all duration-300'
         >
           {text}
         </Link>
