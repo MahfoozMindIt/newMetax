@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaArrowRightLong } from 'react-icons/fa6';
 import metax from "../../assets/metax.png"
 import './Footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
     <FaInstagram className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
     </div>
     <p className='text-sm pb-2 pt-10'>Metax Payments Ltd © 2025</p>
-    <p className='flex gap-2 text-sm'><span className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Privacy Policy</span> <span className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Cookie Policy</span></p>
+    <p className='flex gap-2 text-sm'><Link to='https://metaxpayments.com/pages/privacy-policy' className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Privacy Policy</Link> <Link to='https://metaxpayments.com/pages/cookies' className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Cookie Policy</Link></p>
     </div>
     <div>
         <h4 className='font-semibold mb-24'>Contact Us</h4>
@@ -32,7 +33,7 @@ const Footer = () => {
             <input type="email" name="" id="" placeholder='enter your email address here' className='border-t-0 border-l-0 border-r-0 outline-0 border-b-[1px] placeholder:text-white md:w-[500px] w-[350px] pb-2'/>
             <div className='flex  gap-3 items-center pt-5'>
             <input type="checkbox" className='h-5 w-5' name="" id="" />
-                <label htmlFor="" className='text-[12px]'>By subscribing, you confirm that you have read our <span className='underline underline-offset-1'>Privacy Policy</span></label>
+                <label htmlFor="" className='text-[12px]'>By subscribing, you confirm that you have read our <Link to='https://metaxpayments.com/pages/privacy-policy' className='underline underline-offset-1'>Privacy Policy</Link></label>
             </div></div>
             <button className='rounded-full bg-white hover:bg-[#542A74] hover:border-[#542A74] transition-all duration-500 text-black border-white border-[2px] text-[20px] font-semibold px-9 cursor-pointer hover:text-white flex items-center gap-2 py-5'>Send <span><FaArrowRightLong/></span>   </button>
         </div>

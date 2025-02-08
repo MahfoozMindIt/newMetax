@@ -3,6 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import BgImg from "../assets/bgEarth.png"
 import map from "../assets/map.png"
 import iconvg from '../assets/X_logo.png'
+import banner from '../assets/v1.png'
 import group1 from '../assets/group1.png'
 import content from '../assets/content.png'
 import content2 from '../assets/content2.jpg'
@@ -24,8 +25,8 @@ const Home = () => {
         <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
   
     </div>
-    <div className='h-[550px] xl:w-[44%] w-full hidden xl:block rounded-full bg-white'>
-
+    <div className='lg:h-[570px] lg:w-[65%] md:h-[500px] h-[300px] w-[300px] md:w-[500px] xl:w-[500px] xl:h-[500px]   xl:block rounded-full homeContent  flex items-center justify-center'>
+<img src={banner} alt="" className='h-full rounded-full w-full object-cover shadow-2xl'/>
     </div>
  </main>
  <main className='w-full flex py-10 '>

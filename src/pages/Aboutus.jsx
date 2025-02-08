@@ -3,6 +3,7 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 import iconvg from '../assets/X_logo.png'
 import { SiComma } from "react-icons/si";
 import '../styles/Home.css';
+import banner from '../assets/v1.png'
 import logo1 from '../assets/logo1.svg'
 import logo2 from '../assets/logo2.svg'
 import logo3 from '../assets/logo3.svg'
@@ -10,7 +11,7 @@ import logo4 from '../assets/logo4.svg'
 import logo5 from '../assets/logo5.svg'
 import logo6 from '../assets/logo6.svg'
 import content4 from '../assets/content4.webp'
-import p1 from '../assets/p1.svg'
+import p1 from '../assets/xOutline.png'
 import p2 from '../assets/p2.svg'
 import p3 from '../assets/p3.svg'
 import Slider from 'react-infinite-logo-slider'
@@ -26,9 +27,9 @@ const Aboutus = () => {
             <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
       
         </div>
-        <div className='h-[550px] xl:w-[43%] w-full hidden xl:block rounded-full bg-white'>
-    
-        </div>
+            <div className='lg:h-[570px] lg:w-[65%] md:h-[500px] h-[300px] w-[300px] md:w-[500px] xl:w-[500px] xl:h-[500px]   xl:block rounded-full homeContent  flex items-center justify-center'>
+        <img src={banner} alt="" className='h-full rounded-full w-full object-cover shadow-2xl'/>
+            </div>
      </main>
      <div className='w-full flex gap-2 pb-5 md:pb-2 lg:pb-0'>
      <SiComma className='text-start text-6xl text-[#542A74]'/>
