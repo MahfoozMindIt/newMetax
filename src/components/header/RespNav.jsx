@@ -43,7 +43,7 @@ const Li = ({ url, text, location }) => {
       >
         <Link
           to={url}
-          onClick={()=>{!show}}
+          // onClick={()=>{!show}}
           style={{fontWeight:300,}}
           className='hover:text-[#542A74] md:text-3xl text-xl transition-all duration-300'
         >
