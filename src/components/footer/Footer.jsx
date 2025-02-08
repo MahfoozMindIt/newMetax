@@ -2,6 +2,8 @@ import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaArrowRightLong } from 'react-icons/fa6';
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
 import metax from "../../assets/metax.png"
 import './Footer.css'
 import { Link } from 'react-router-dom';
@@ -18,8 +20,13 @@ const Footer = () => {
     </div>
     
     <div className='flex gap-10 text-3xl'>
-    <FaLinkedinIn className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
-    <FaInstagram className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
+    <a target='_blank' href='https://www.linkedin.com/company/metaxpayments/'><FaLinkedinIn className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/>
+    </a>
+    <a target='_blank' href='https://www.instagram.com/metaxpayments/'><FaInstagram className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/></a>
+    
+    <a target='_blank' href='https://www.facebook.com/MetaXPayments'><FaFacebookF className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/></a>
+    
+    <a target='_blank' href='https://twitter.com/@MetaXPayments'><FaXTwitter className='cursor-pointer hover:text-[#542A74] transition-all duration-300'/></a>
     </div>
     <p className='text-sm pb-2 pt-10'>Metax Payments Ltd © 2025</p>
     <p className='flex gap-2 text-sm'><Link to='https://metaxpayments.com/pages/privacy-policy' className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Privacy Policy</Link> <Link to='https://metaxpayments.com/pages/cookies' className='underline underline-offset-2 cursor-pointer hover:text-[#542A74] transition-all duration-300'>Cookie Policy</Link></p>

@@ -19,14 +19,16 @@ const Home = () => {
         <div  className='w-full flex flex-col items-center justify-center bg-[#F4F2F2]'>
         <section className='lg:w-[85%] w-[95%] '>
  <main className='flex flex-col xl:flex-row items-center justify-between py-10 gap-10 w-full'>
- <div className='xl:w-[47%] w-full'>
+ <div className='xl:w-[47%] w-full '>
         <h1 className='md:text-7xl text-3xl font-light pb-14'>
         Advanced <br className='hidden md:block'/> payment <br /> technology <br className='hidden md:block'/> powered by Metax <br /> Payments</h1>
         <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
   
-    </div>
+    </div><div className='flex items-center justify-center w-[50%]'>
+      
     <div className='lg:h-[570px] lg:w-[65%] md:h-[500px] h-[300px] w-[300px] md:w-[500px] xl:w-[500px] xl:h-[500px]   xl:block rounded-full homeContent  flex items-center justify-center'>
 <img src={banner} alt="" className='h-full rounded-full w-full object-cover shadow-2xl'/>
+    </div>
     </div>
  </main>
  <main className='w-full flex py-10 '>
