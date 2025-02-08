@@ -26,7 +26,7 @@ const Home = () => {
   
     </div><div className='flex items-center justify-center w-[50%]'>
       
-    <div className='lg:h-[570px] lg:w-[65%] md:h-[500px] h-[300px] w-[300px] md:w-[500px] xl:w-[500px] xl:h-[500px]   xl:block rounded-full homeContent  flex items-center justify-center'>
+    <div className='lg:h-[570px] lg:w-[65%] md:h-[500px]  md:w-[500px] xl:w-[500px] xl:h-[500px] h-[200px] rounded-full  flex items-center justify-center'>
 <img src={banner} alt="" className='h-full rounded-full w-full object-cover shadow-2xl'/>
     </div>
     </div>
@@ -57,7 +57,7 @@ const Home = () => {
  </main>
  <main className='flex flex-col justify-center items-center xl:py-48 py-24 gap-16'>
 <img src={iconvg} alt="" className='lg:h-24 lg:w-24 h-16 w-16' />
-<h2 className='lg:text-6xl text-3xl font-light text-center leading-8 lg:leading-20'>
+<h2 className='lg:text-6xl text-3xl font-light homeContent text-center leading-8 lg:leading-20'>
 The digital payments landscape is <br className='hidden xl:block'/> transforming, we have the tools to help you <br /> evolve with it
 </h2>
  </main>

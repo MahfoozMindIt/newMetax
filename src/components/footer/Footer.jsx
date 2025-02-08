@@ -16,7 +16,7 @@ const Footer = () => {
 <div>
     <div className='pb-20'>
         
-    <div className='bg-white xl:py-20 xl:px-7 xl:rounded-full p-1'><img src={metax} alt="" className='lg:h-14 object-contain h-10'/></div>
+    <div className='bg-white xl:h-[200px] xl:w-[200px] xl:px-7 xl:rounded-full p-1 flex items-center justify-center rounded'><img src={metax} alt="" className='lg:h-14 object-contain h-10'/></div>
     </div>
     
     <div className='flex gap-10 text-3xl'>
