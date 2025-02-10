@@ -16,6 +16,7 @@ import p2 from '../assets/p2.svg'
 import p3 from '../assets/p3.svg'
 import Slider from 'react-infinite-logo-slider'
 import Metadata from '../components/Metadata';
+import { Link } from 'react-router-dom';
 
 const Aboutus = () => {
   return (
@@ -26,7 +27,8 @@ const Aboutus = () => {
      <div className='xl:w-[47%] w-full'>
             <h1 className='md:text-8xl text-5xl font-light pb-3'>About Metax</h1>
             <p className='lg:text-lg lg:w-[87%] w-full pb-5'>The Metax leadership team combines extensive experience in finance, technology, and operations, to drive innovation in the digital asset payments space. Our collective expertise ensures we deliver seamless, cross-border payment solutions at the forefront of the industry, that cater to the evolving needs of businesses worldwide.</p>
-            <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
+            <Link to='/contact'>
+            <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button></Link>
       
         </div>
             <div className='lg:h-[570px] lg:w-[65%] md:h-[500px] h-[300px] w-[300px] md:w-[500px] xl:w-[500px] xl:h-[500px]   xl:block rounded-full homeContent  flex items-center justify-center'>
@@ -43,7 +45,7 @@ const Aboutus = () => {
 <p className='pb-5'>We’ve brought together some of the brightest minds in the industry across Europe, Canada, Australia, and Africa. Building a team with unparalleled experience across all facets of payment infrastructure.</p>
 <p className='pb-5'>Through strategic acquisitions and partnerships, we’ve also integrated a number of providers into our ecosystem, enabling us to deliver a truly localised service to businesses worldwide.</p>
 <p className='pb-5'>As we continue to grow, our mission remains the same: to redefine what’s possible in the payments industry and become a trusted partner for businesses navigating the ever-changing financial landscape.</p>
-<button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Contact us <span><FaArrowRightLong/></span>   </button>
+<Link to='/contact'><button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Contact us <span><FaArrowRightLong/></span>   </button></Link>
      </main>
 
       <main className='flex flex-col justify-center items-center xl:py-48 py-24 gap-16'>
@@ -98,7 +100,8 @@ const Aboutus = () => {
      <div className='xl:w-[47%] w-full'>
             <h1 className='md:text-8xl text-5xl font-light pb-3'>Join us</h1>
             <p className='lg:text-lg lg:w-[87%] w-full pb-5'>At Metax Group, we’re not just building technology; we’re shaping the future of payments. If you’re passionate about innovation, driven to make an impact, and thrive in a fast-paced, collaborative environment, we’d love to hear from you. Join our team and be part of a journey that’s transforming the way the world moves money.</p>
-            <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Contact us <span><FaArrowRightLong/></span>   </button>
+            <Link to='/contact'>
+            <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Contact us <span><FaArrowRightLong/></span>   </button></Link>
       
         </div>
         
@@ -110,7 +113,7 @@ const Aboutus = () => {
                <main className='w-full flex-col md:flex-row flex gap-10 justify-between items-center'>
               <div className='md:w-[47%] w-full pl-5'>  <h2 className='lg:text-5xl text-3xl font-light lg:leading-14 leading-9 homeContent'>Want to setup a call <br /> with one of our digital <br /> asset experts?</h2>
                 <p className='pt-10 pb-5 lg:text-3xl text-xl font-light'>Book a call today.</p>
-                <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] lg:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button>
+<Link to='/contact'>                <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] lg:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button></Link>
               </div>
               <img src={content4} alt="" className='md:h-[500px] h-[350px] md:w-[52%] w-full object-cover'/>
                </main>

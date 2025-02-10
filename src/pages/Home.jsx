@@ -13,6 +13,7 @@ import global from '../assets/global.svg'
 import { MdOutlineCheckCircleOutline } from 'react-icons/md';
 import "../styles/Home.css"
 import Metadata from '../components/Metadata';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -24,8 +25,8 @@ const Home = () => {
  <div className='xl:w-[47%] w-full '>
         <h1 className='md:text-7xl text-3xl font-light pb-14'>
         Advanced <br className='hidden md:block'/> payment <br /> technology <br className='hidden md:block'/> powered by Metax <br /> Payments</h1>
-        <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
-  
+  <Link to='/contact'>      <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[18px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
+  </Link>
     </div><div className='flex items-center justify-center w-[50%]'>
       
     <div className='lg:h-[570px] lg:w-[65%] md:h-[500px]  md:w-[500px] xl:w-[500px] xl:h-[500px] h-[200px] rounded-full  flex items-center justify-center'>
@@ -42,7 +43,8 @@ const Home = () => {
 
  <img src={map} alt="" className='w-full h-full object-cover py-10'/>
  <main className='w-full flex justify-center items-center py-10'>
- <button className='rounded-full bg-primary text-white border-primary hover:bg-secondary hover:border-secondary transition-all duration-500 border-[2px] md:text-[20px] text-[15px] font-semibold md:px-10 px-7 cursor-pointer flex items-center gap-2 py-3 md:py-5'>Book an appointment with one of our experts <span><FaArrowRightLong/></span>   </button>
+  <Link to='/contact'>
+  <button className='rounded-full bg-[#542A74] text-white hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 border-[#542A74] border-[2px] md:text-[20px] text-[15px] font-semibold md:px-10 px-7 cursor-pointer flex items-center gap-2 py-3 md:py-5'>Book an appointment with one of our experts <span><FaArrowRightLong/></span>   </button></Link>
   
  </main>
 
@@ -66,7 +68,7 @@ The digital payments landscape is <br className='hidden xl:block'/> transforming
  <main className='w-full flex flex-col xl:flex-row gap-10 justify-between py-20 items-center'>
 <div className='xl:w-[47%] w-full'>  <h2 className='lg:text-6xl text-3xl font-light homeContent'>Payment solutions to fit your business <br className='xl:block hidden'/> needs</h2>
   <p className='py-10 text-lg'>We support business of all sizes, from large enterprises to SMEs, across a wide range of industries.</p>
- <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] md:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button>
+ <Link to='/contact'><button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] md:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Talk to us <span><FaArrowRightLong/></span>   </button></Link>
 </div>
 <img src={content} alt="" className='xl:h-[570px] h-[350px] xl:w-[45%] w-full object-cover shadow-2xl rounded-4xl'/>
  </main>
@@ -100,7 +102,7 @@ The digital payments landscape is <br className='hidden xl:block'/> transforming
           <main className='w-full flex-col md:flex-row flex gap-10 pt-10 md:pt-0 justify-between items-center'>
          <div className='md:w-[47%] w-full pl-5'>  <h2 className='lg:text-5xl text-3xl font-light lg:leading-14 leading-9 homeContent'>Want to setup a call <br /> with one of our digital <br /> asset experts?</h2>
            <p className='pt-10 pb-5 lg:text-3xl text-xl font-light'>Book a call today.</p>
-           <button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] lg:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button>
+           <Link to='/contact'><button className='rounded-full bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-500 text-white border-[#542A74] border-[2px] lg:text-[20px] text-[15px] font-semibold px-10 cursor-pointer flex items-center gap-2 py-5'>Book now <span><FaArrowRightLong/></span>   </button></Link>
          </div>
          <img src={content4} alt="" className='md:h-[500px] h-[350px] md:w-[52%] w-full object-cover'/>
           </main>
