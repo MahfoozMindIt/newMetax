@@ -15,10 +15,12 @@ import p1 from '../assets/xOutline.png'
 import p2 from '../assets/p2.svg'
 import p3 from '../assets/p3.svg'
 import Slider from 'react-infinite-logo-slider'
+import Metadata from '../components/Metadata';
 
 const Aboutus = () => {
   return (
      <div  className='w-full flex flex-col items-center justify-center bg-[#F4F2F2]'>
+        <Metadata metaData={`About`}/>
             <section className='lg:w-[85%] w-[95%] flex justify-center flex-col items-center '>
      <main className='flex flex-col xl:flex-row items-center justify-between py-10 pb-20 gap-10 w-full'>
      <div className='xl:w-[47%] w-full'>
@@ -68,19 +70,19 @@ const Aboutus = () => {
         >
             <Slider.Slide>
                 <div className='bg-white p-14  border-[1px] border-white rounded-xl'>
-                <img src={logo1} alt="any" className='w-36' />
+                <img src={logo1} alt="any" className='w-28' />
                 </div>
             </Slider.Slide>
             <Slider.Slide>  <div className='bg-white p-14  border-[1px] border-white rounded-xl'>
-                <img src={logo2} alt="any" className='w-36' />
+                <img src={logo2} alt="any" className='w-32' />
                 </div>
             </Slider.Slide>
             <Slider.Slide>  <div className='bg-white p-14  border-[1px] border-white rounded-xl'>
-                <img src={logo3} alt="any" className='w-36' />
+                <img src={logo3} alt="any" className='w-28' />
                 </div>
             </Slider.Slide>
             <Slider.Slide>  <div className='bg-white px-20 py-5  border-[1px] border-white rounded-xl'>
-                <img src={logo4} alt="any" className='w-36' />
+                <img src={logo4} alt="any" className='w-20' />
                 </div>
             </Slider.Slide>
         </Slider>
@@ -89,7 +91,7 @@ const Aboutus = () => {
      <section className='lg:w-[85%] w-[95%] flex justify-center flex-col xl:pb-32 pb-10 items-center '>
      <main className='flex flex-col xl:flex-row items-center justify-between py-10  gap-10 w-full'>
      <div className='xl:w-[43%] w-full flex items-center gap-8'>
-    <img src={p1} alt=""  className='md:h-32 md:w-32 h-20 w-20'/>
+    <img src={p1} alt=""  className='md:h-36 md:w-36 h-20 w-20'/>
     <img src={p2} alt=""  className='md:h-32 md:w-32 h-20 w-20'/>
     <img src={p3} alt=""  className='md:h-32 md:w-32 h-20 w-20'/>
     </div>

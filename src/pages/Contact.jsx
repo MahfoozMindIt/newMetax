@@ -1,10 +1,12 @@
 import React from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
+import Metadata from '../components/Metadata'
 
 const Contact = () => {
   return (
     <div  className='w-full flex flex-col items-center justify-center bg-[#F4F2F2]'>
+      <Metadata metaData={`Contact`}/>
     <section className='lg:w-[85%] w-[95%] py-20'>
 <main className='flex flex-col gap-10 w-full lg:w-[75%] xl:w-[50%]'>
 

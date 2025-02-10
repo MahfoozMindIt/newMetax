@@ -12,10 +12,12 @@ import content4 from '../assets/content4.webp'
 import global from '../assets/global.svg'
 import { MdOutlineCheckCircleOutline } from 'react-icons/md';
 import "../styles/Home.css"
+import Metadata from '../components/Metadata';
 
 const Home = () => {
   return (
     <div className='w-full'>
+      <Metadata metaData={`Metax | Home`}/>
         <div  className='w-full flex flex-col items-center justify-center bg-[#F4F2F2]'>
         <section className='lg:w-[85%] w-[95%] '>
  <main className='flex flex-col xl:flex-row items-center justify-between py-10 gap-10 w-full'>

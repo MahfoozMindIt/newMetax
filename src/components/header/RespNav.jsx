@@ -17,7 +17,8 @@ const location = useLocation();
     
 <div className='flex justify-between w-full'>
 <button className='rounded-full md:hidden block hover:border-[#7E489B] text-[#542A74] transition-all duration-300 hover:text-[#7E489B] border-[#542A74] border-[2px] text-[14px] font-semibold py-2 px-5 cursor-pointer'>Sign Up</button>
-    <button className='rounded-full block md:hidden bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-300 text-white border-[#542A74] border-[2px] text-[14px] font-semibold py-2 px-5 cursor-pointer'>Contact us</button>
+<Link to='/contact'>
+<button className='rounded-full block md:hidden bg-[#542A74] hover:bg-[#7E489B] hover:border-[#7E489B] transition-all duration-300 text-white border-[#542A74] border-[2px] text-[14px] font-semibold py-2 px-5 cursor-pointer'>Contact us</button></Link>
     
 </div>
     
