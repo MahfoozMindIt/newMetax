@@ -4,7 +4,7 @@ import BgImg from "../assets/bgEarth.png"
 import map from "../assets/map.png"
 import iconvg from '../assets/X_logo.png'
 import banner from '../assets/v1.png'
-import group1 from '../assets/group1.png'
+import group1 from '../assets/metaxDevice.png'
 import content from '../assets/content.png'
 import content2 from '../assets/content2.jpg'
 import content3 from '../assets/content3.jpg'
