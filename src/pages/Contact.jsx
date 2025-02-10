@@ -10,7 +10,7 @@ const Contact = () => {
     <section className='lg:w-[85%] w-[95%] py-20'>
 <main className='flex flex-col gap-10 w-full lg:w-[75%] xl:w-[50%]'>
 
-<h1 className='lg:text-8xl text-6xl font-light'>We help your business grow</h1>
+<h1 className='lg:text-8xl text-6xl font-light leading-28'>We help your business grow</h1>
 <p className='text-lg'>Contact our sales and support teams direct, or use the form for general requests.</p>
 
 </main>
